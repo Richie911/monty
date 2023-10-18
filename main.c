@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	}
 	while (line > 0)
 	{
-		line = getline (&line_buf, &line_buf_size, file_path);
+		line = getline(&line_buf, &line_buf_size, file_path);
 		bus.content = line_buf;
 		i++;
 		if (line > 0)
